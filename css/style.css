@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+p{
+    margin-top: 30px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+     .col-lg-4 {
+      float: left;  
+      border: 1px solid black;
+      margin-left: 25px;
+      margin-right: 0px;
+      padding: 10px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background-color: #41231ec5;
+      color: white;
+      position: relative;
+    }
+    
+    .col-lg-4 {
+      width: 30.7%;
+    }
+}
+
+
+@media (min-width:992px) {
+    .inner{
+        float: right;
+        background-color: #e7b019;
+        padding: 5px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        border: 1px solid black;
+    }
+}
+
+@media (min-width:768px) and (max-width: 991px){
+    .col-md-6{
+        float: left;
+        border: 1px solid black;
+        margin-left: 50px;
+        margin-right: 20px;
+        padding: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: #41231ec5;;
+        color: white;
+        position: relative;
+    }
+
+    .col-md-6 {
+        width: 40%;
+      }
+
+      .col-md-12{
+          width: 87.5%;
+          float: left;
+          border: 1px solid black;
+          margin-left: 50px;
+          margin-right: 0px;
+          padding: 10px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          background-color: #41231ec5;
+          color: white;
+          position: relative;
+          margin-top: 25px;
+          height: 150px;
+      }
+      .inner{
+        float: right;
+        background-color:  #e7b019;;
+        padding: 5px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        border: 1px solid black;
+    }
+}
+
+@media (min-width: 100px) and (max-width:767px){
+       .col-sm-12{
+        width: 100%;
+        float: left;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: #41231ec5;
+        color: white;
+        position: relative;
+        margin-top: 25px;
+        height: 200px;
+       }
+       .inner{
+        float: right;
+        background-color:  #e7b019;
+        padding: 5px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        border: 1px solid black;
+    }
+    }
